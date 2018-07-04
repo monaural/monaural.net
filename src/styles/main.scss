@@ -1,0 +1,97 @@
+/* define */
+$color: #333;
+$color-sub: #35a;
+
+
+/* reset */
+body, h1, h2, h3, h4, h5, h6, ul, li {
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+/* global */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, appleLogo, sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: $color-sub;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+
+/* layout */
+body {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+header {
+  box-sizing: border-box;
+  height: 120px;
+  margin: 40px 0;
+}
+
+main {
+  min-height: calc(100vh - 200px - 200px);
+}
+
+footer {
+  box-sizing: border-box;
+  margin: 80px 0 0;
+  height: 120px;
+}
+
+
+/* parts */
+h1 {
+  font-weight: 100;
+  font-size: 250%;
+}
+
+h2 {
+  font-weight: 100;
+  font-family: serif;
+  font-size: 80%;
+}
+
+main {
+  ul {
+    padding-left: 40px;
+
+    li {
+      list-style: circle;
+      margin-bottom: .8em;
+    }
+  }
+}
+
+aside {
+  text-align: center;
+  li {
+    display: inline-block;
+    padding: 0 0.5em;
+  }
+  a:hover img {
+    filter: drop-shadow(0 0 8px rgba($color-sub, .5));
+  }
+  img {
+    width: 24px;
+  }
+}
+
+footer {
+  text-align: center;
+}
