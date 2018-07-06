@@ -26,7 +26,7 @@ a {
   color: $color-sub;
 
   &:hover {
-    text-decoration: underline;
+    color: lighten($color-sub, 20%);
   }
 }
 
@@ -56,6 +56,18 @@ footer {
 
 
 /* parts */
+header {
+  a {
+    color: inherit;
+    &:hover {
+      color: inherit;
+      h1, h2  {
+        filter: drop-shadow(0 0 8px rgba($color, .5));
+      }
+    }
+  }
+}
+
 h1 {
   font-weight: 100;
   font-size: 250%;
