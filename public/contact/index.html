@@ -27,14 +27,24 @@
 </header>
 
 <main>
-  <ul>
-    <li><a href="https://matsuoshi.hatenablog.com/">はてなブログ</a></li>
-    <li><a href="https://pause.monaural.net/">pause // music blog</a></li>
-  </ul>
+  <h3>Contact / お問合せ</h3>
+  <p>お気軽にお問合せください。通常3営業日以内に返信いたします。</p>
 
-  <p class="contact">
-    <a class="btn" href="/contact">concact / お問い合わせ</a>
-  </p>
+  <form name="contact" method="POST" action="/contact/thanks.html" data-netlify="true">
+    <p>
+      <label>お名前 / Name <input type="text" name="name" required /></label>
+    </p>
+    <p>
+      <label>メールアドレス / Email <input type="email" name="email" required /></label>
+    </p>
+    <p>
+      <label>お問合せ内容 / Message <textarea name="message" rows="5" required></textarea></label>
+    </p>
+    <div data-netlify-recaptcha></div>
+    <p>
+      <button type="submit" class="btn">送信 / Send</button>
+    </p>
+  </form>
 </main>
 
 <footer>
