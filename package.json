@@ -2,13 +2,10 @@
   "name": "monaural.net",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "dependencies": {
+    "browser-sync": "^2.24.5",
     "browser-sync-webpack-plugin": "^2.2.2",
     "laravel-mix": "^2.1.11"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.24.5"
   },
   "scripts": {
     "start": "npm run watch",
