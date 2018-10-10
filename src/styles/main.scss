@@ -70,10 +70,12 @@ footer {
   margin-left: 20px;
   border: 1px solid #888;
   border-radius: .2em;
+  transition: all linear .1s;
   
   &:hover {
     color: $color-sub;
     border-color: $color-sub;
+    filter: drop-shadow(0 0 2px rgba($color-sub, .5));
   }
 }
 
