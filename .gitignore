@@ -1,9 +1,7 @@
-/public/assets/css/main.css
-/public/assets/js/app.js
-
 /node_modules
 /vendor
 /.idea
 .env
 *.log
 /mix-manifest.json
+/.nuxt

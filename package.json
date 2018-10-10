@@ -1,26 +1,9 @@
 {
   "name": "monaural.net",
-  "version": "1.0.0",
-  "description": "",
-  "dependencies": {
-    "browser-sync": "^2.24.5",
-    "browser-sync-webpack-plugin": "^2.2.2",
-    "laravel-mix": "^2.1.11"
-  },
   "scripts": {
-    "start": "npm run watch",
-    "watch": "NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js --watch",
-    "build": "NODE_ENV=production webpack --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "dev": "nuxt"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matsuoshi/monaural.net.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/matsuoshi/monaural.net/issues"
-  },
-  "homepage": "https://github.com/matsuoshi/monaural.net#readme"
+  "dependencies": {
+    "nuxt": "^2.1.0"
+  }
 }
