@@ -1,12 +1,12 @@
 <template>
-  <h1>Hello world!</h1>
+  <h1>contact</h1>
 </template>
 
 <script>
   export default {
     head() {
       return {
-        titleTemplate: ''
+        title: 'contact'
       }
     }
   }
