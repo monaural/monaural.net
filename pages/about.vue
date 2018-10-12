@@ -6,7 +6,10 @@
   export default {
     head() {
       return {
-        title: 'about'
+        title: 'about',
+        meta: [
+          {hid: 'description', name: 'description', content: 'about'}
+        ]
       }
     }
   }
