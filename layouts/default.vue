@@ -1,15 +1,22 @@
 <template>
   <div>
-    <nav>
-      <router-link to="/">home</router-link>
-      <router-link to="/about">about</router-link>
-      <router-link to="/contact">contact</router-link>
-    </nav>
-
+    <site-header/>
     <nuxt/>
-
-    <footer>
-      footer
-    </footer>
+    <site-footer/>
   </div>
 </template>
+
+<style lang="scss">
+</style>
+
+<script>
+  import SiteHeader from '~/components/SiteHeader.vue'
+  import SiteFooter from '~/components/SiteFooter.vue'
+
+  export default {
+    components: {
+      SiteHeader,
+      SiteFooter
+    }
+  }
+</script>

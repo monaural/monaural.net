@@ -1,16 +1,17 @@
 module.exports = {
   head: {
-    title: 'monaural.net // モノラル',
-    titleTemplate: '%s | monaural.net',
+    title: 'モノラル',
+    titleTemplate: '%s | monaural',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1'},
-      {hid: 'description', name: 'description', content: 'Nuxt.js project'}
+      {hid: 'description', name: 'description', content: 'monaural - モノラル のウェブサイトです。'},
+      {property: 'og:image', content: 'https://monaural.net/img/ogp.png'},
+      {name: 'twitter:image', content: 'https://monaural.net/img/ogp.png'}
     ],
     link: [
-      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-      {rel: 'stylesheet', href: 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'},
-      {rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.3.1/css/all.css'},
+      {rel: 'shortcut icon', href: '/img/logo.png'},
+      {rel: 'apple-touch-icon', sizes: '180x180', href: 'https://monaural.net/img/logo.png'}
     ]
   },
   css: [
