@@ -1,2 +1,4 @@
+/dummy_form* /contact 301
+
 /post/* https://pause.monaural.net/post/:splat 301​
 /tags/* https://pause.monaural.net/tags/:splat 301​

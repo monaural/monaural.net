@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+<form name="contact" method="POST" action="/contact/thanks" data-netlify="true">
+  <input type="text" name="name" required/>
+  <input type="email" name="email" required/>
+  <textarea name="message" rows="5" required></textarea>
+  <div data-netlify-recaptcha></div>
+  <button type="submit" class="btn">送信 / Send</button>
+</form>
+</body>
+</html>
