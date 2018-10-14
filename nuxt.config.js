@@ -16,5 +16,8 @@ module.exports = {
   css: [
     '@/assets/styles/styles.scss'
   ],
+  modules: [
+    ['@nuxtjs/google-analytics', {id: 'UA-451999-3'}]
+  ],
   loading: {color: '#aaaaaa'}
 };
