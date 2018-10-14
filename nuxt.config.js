@@ -13,7 +13,8 @@ module.exports = {
       {rel: 'stylesheet', href: 'https://use.fontawesome.com/releases/v5.3.1/css/all.css'},
     ]
   },
-
-  loading: {color: '#3B8070'}
-
+  css: [
+    '@/assets/styles/styles.scss'
+  ],
+  loading: {color: '#aaaaaa'}
 };
