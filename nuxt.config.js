@@ -21,5 +21,8 @@ module.exports = {
     ['nuxt-sass-resources-loader', '@/assets/styles/_global.scss'],
     ['@nuxtjs/google-analytics', {id: 'UA-451999-3'}]
   ],
+  generate: {
+    fallback: true // for 404.html
+  },
   loading: {color: '#aaaaaa'}
 };
