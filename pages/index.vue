@@ -1,9 +1,9 @@
 <template>
   <main class="home">
     <ul>
-      <li><a href="https://blog.monaural.net/">blog</a></li>
+      <li><a href="https://blog.monaural.net/">ブログ</a></li>
       <li><a href="https://pause.monaural.net/">pause // music blog</a></li>
-      <li><a href="https://matsuoshi.hatenablog.com/">はてな</a></li>
+      <li><a href="https://matsuoshi.hatenablog.com/">はてなブログ</a></li>
     </ul>
 
     <p>
