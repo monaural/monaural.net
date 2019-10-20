@@ -3,7 +3,6 @@
     <ul>
       <li><a href="https://matsuoshi.hatenablog.com/">はてなブログ</a></li>
       <li><a href="https://pause.monaural.net/">pause // music blog</a></li>
-      <li><a href="https://blog.monaural.net/">(旧ブログ)</a></li>
     </ul>
 
     <p>
