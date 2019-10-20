@@ -18,9 +18,14 @@ module.exports = {
     '@/assets/styles/styles.scss'
   ],
   modules: [
-    ['nuxt-sass-resources-loader', '@/assets/styles/_global.scss'],
+    '@nuxtjs/style-resources',
     ['@nuxtjs/google-analytics', {id: 'UA-451999-3'}]
   ],
+  styleResources: {
+    scss: [
+      '~/assets/styles/_global.scss'
+    ]
+  },
   generate: {
     fallback: true // for 404.html
   },
