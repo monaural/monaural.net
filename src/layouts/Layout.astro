@@ -50,7 +50,7 @@ const { title } = Astro.props;
     font-weight: 300;
     font-size: 18px;
     -webkit-font-smoothing: antialiased;
-    color: #333;
+    color: $color-main;
   }
 
   h3 {
@@ -61,10 +61,10 @@ const { title } = Astro.props;
 
   a {
     text-decoration: none;
-    color: #35a;
+    color: $color-sub;
 
     &:hover {
-      color: lighten(#35a, 20%);
+      color: lighten($color-sub, 20%);
     }
   }
 
@@ -107,7 +107,7 @@ const { title } = Astro.props;
 
   .btn {
     font-size: 1em;
-    color: #333;
+    color: $color-main;
     background-color: #fff;
     padding: 0.8em 1em;
     margin-left: 20px;
@@ -116,9 +116,9 @@ const { title } = Astro.props;
     transition: all linear 0.1s;
 
     &:hover {
-      color: #35a;
-      border-color: #35a;
-      filter: drop-shadow(0 0 2px rgba(#35a, 0.5));
+      color: $color-sub;
+      border-color: $color-sub;
+      filter: drop-shadow(0 0 2px rgba($color-sub, 0.5));
     }
   }
 
